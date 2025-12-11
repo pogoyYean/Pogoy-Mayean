@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <style>
+        body { 
+            margin:0; 
+            font-family:Arial, sans-serif; 
+            color:#333;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            background:#222; 
+            padding:15px; 
+            text-align:center;
+            box-shadow:0 2px 10px rgba(0,0,0,0.2);
+            position:sticky;
+            top:0;
+            z-index:1000;
+        }
+
+        nav a {
+            color:white; 
+            text-decoration:none; 
+            margin:0 20px; 
+            font-weight:bold; 
+            font-size:18px;
+            padding:5px 10px;
+            transition:0.3s;
+        }
+
+        nav a:hover { background:#444; border-radius:5px; }
+
+        section { 
+            padding:50px 20px; 
+            text-align:center;
+            margin:20px auto;
+            width:80%;
+            max-width:900px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+            border-radius:10px;
+        }
+
+        h1 { margin-bottom:15px; }
+
+        .avatar {
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            object-fit:cover;
+            border:5px solid #333;
+            box-shadow:0 4px 10px rgba(0,0,0,0.3);
+            margin-bottom:20px;
+        }
+
+        .photo-grid {
+            display:flex; 
+            justify-content:center; 
+            flex-wrap:wrap;
+            gap:25px; 
+            margin-top:25px;
+        }
+
+        .photo-grid img {
+            width:240px; 
+            height:240px; 
+            border-radius:10px; 
+            object-fit:cover; 
+            box-shadow:0 3px 8px rgba(0,0,0,0.15);
+        }
+
+        a { color:#007bff; }
+        a:hover { text-decoration:underline; }
+
+        /* ==== Background Colors for Sections ==== */
+        #home { background:#e0f7fa; }       /* Light cyan */
+        #about { background:#fff3e0; }      /* Light orange */
+        #contact { background:#f3e5f5; }    /* Light purple */
+        #photos { background:#e8f5e9; }     /* Light green */
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#photos">Photos</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+    <img src="https://scontent.fmnl9-1.fna.fbcdn.net/v/t39.30808-6/470182529_1603487610263832_1915229772804847829_n.jpg?_nc_cat=110&cb2=99be929b-a592a72f&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGM4PEl6sGqljcuLDHQ_s2ipxdNVWvy6SqnF01Va_LpKop3PAYEfEZA3XxusIn6pJzwh_md9s9tKpHrr_66JxDs&_nc_ohc=XwzMbm9JpB8Q7kNvwHunAf5&_nc_oc=AdmLO2SfkiGJ07wY45wVw6-15P8cJyida01xJn1MX1zBxAZPdyVt-HTcDMlnfRaLHV0&_nc_zt=23&_nc_ht=scontent.fmnl9-1.fna&_nc_gid=JrMjwPDwCxZXVHZ-Uy3tQg&oh=00_Afkk1AbMU5WT5OwncoVKpxaNDRQmm3HKMYmg-bYZt_m4CQ&oe=6940B306" class="avatar" alt="Avatar">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hello! This is my personal space where I showcase who I am.</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h1>About Me</h1>
+    <p style="max-width:700px;margin:auto;">
+        I aim to turn my curiosity into meaningful work that inspires others and reflects who I am.
+    </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h1>Contact Information</h1>
+    <p><strong>Email:</strong> mayeanpogoy344@gmail.com</p>
+    <p><strong>Phone:</strong> 09161296550</p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/yeanyean.yogop" target="_blank">Visit Profile</a></p>
+    
+</section>
+
+<!-- PHOTOS -->
+<section id="photos">
+    <h1>My Photos</h1>
+    <div class="photo-grid">
+        <img src="https://scontent-mnl3-3.xx.fbcdn.net/v/t39.30808-6/470239671_1602744897004770_9074384332043437192_n.jpg?_nc_cat=101&cb2=99be929b-a592a72f&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHHdmbrktLfTH_vgqw9LJRnpFGzY1qv0Y2kUbNjWq_RjQi_w-lqpqrn08pIXw-CjlYWUlysxndBQfqfNn-Pls_H&_nc_ohc=HPg-boRi_9MQ7kNvwGz71Z1&_nc_oc=AdnFN217jbTjoySK7qLAEzdSEg2RGaeGzoZdXxKWdmwn3jRm2kdGircK3M89grqoJD0&_nc_zt=23&_nc_ht=scontent-mnl3-3.xx&_nc_gid=NeRmBBNTKkItcB1sXowkjw&oh=00_AfmKuuCXbhIfz7lj7M3qmed8z9pkkyOptGNqhQDL8oPuLw&oe=69408E95">
+        <img src="https://scontent-mnl3-2.xx.fbcdn.net/v/t39.30808-6/481445367_1653124025300190_6794069168287996032_n.jpg?_nc_cat=107&cb2=99be929b-a592a72f&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH8js1gOctjbLs9m56pC3rPbAmkIQU2oJRsCaQhBTaglG0Ntm0RscmS_Tcp-WOf72leH2ul69SR-_lw7mL5QgHS&_nc_ohc=kyvpGdC8XT0Q7kNvwGbekkm&_nc_oc=Adk9dw-WGp7v-n3oGjF-K7XDMdL5Z_iGEma0b9QmnEQbRFBL1kLNJ7kf1ruZsWm4rFg&_nc_zt=23&_nc_ht=scontent-mnl3-2.xx&_nc_gid=GRYFARF9FUY5oS3qxvs9Ww&oh=00_Afn6-eByfWuqomPesvdJhm4ovcm3x3bSdesDE1jeI--gLQ&oe=69409752">
+        <img src="https://scontent-mnl3-1.xx.fbcdn.net/v/t39.30808-6/470101313_1601990073746919_377375715651462463_n.jpg?_nc_cat=103&cb2=99be929b-a592a72f&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGei7JyxepQp2ttAXx9ALa6hARV2Bwywr-EBFXYHDLCv6iLNdQODlgWGTRp5IevnywgUzRfgptROBSyuVxLtLK2&_nc_ohc=GTkaIw4xs98Q7kNvwHFjxSO&_nc_oc=AdlpgWijtBIb95mhRs6tYo0AurV6rCFCc5Vp7d5qKJxIVcUzn7wB8_YySItoh6sPl8w&_nc_zt=23&_nc_ht=scontent-mnl3-1.xx&_nc_gid=YsuRaCgu8OIJnQyxMLNKJQ&oh=00_AfkJFrGeBZA91UT_eGvWypEVIA9FqI-uAjDw-dmU8j1t3g&oe=6940B7DB">
+        <img src="https://scontent-mnl3-3.xx.fbcdn.net/v/t39.30808-6/470672606_1606491353296791_7645907266677838879_n.jpg?_nc_cat=101&cb2=99be929b-a592a72f&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGJHgrP3SZ58kkgzF2JSGTbzb25ewMGgJHNvbl7AwaAkRm9EZdsiSCeOklhxc_JNHafqs_Komt4vaSozh4Yi-B3&_nc_ohc=oEPRm5ngBYUQ7kNvwGdHIiO&_nc_oc=Adnfq0C88kJE2PM8RNVD1zbow1hn8E4-Z9bHrSIPZymXDDM2_svELmYV4dBRFeuISg8&_nc_zt=23&_nc_ht=scontent-mnl3-3.xx&_nc_gid=ZX9LJfoJ3EM8Hr9s1o5-yg&oh=00_AfmqnSHZz4O64ux4A7A7jFuXAhztirOX_-HCmGo0wPoBaQ&oe=6940A75D">
+    </div>
+</section>
+
+</body>
+</html>
